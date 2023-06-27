@@ -13,3 +13,7 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 * `cdk deploy`      deploy this stack to your default AWS account/region
 * `cdk diff`        compare deployed stack with current state
 * `cdk synth`       emits the synthesized CloudFormation template
+
+yarn run cdk deploy -c environmentType=qa
+
+https://6darixwpb5.execute-api.eu-west-2.amazonaws.com/qa/ 
